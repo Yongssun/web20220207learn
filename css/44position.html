@@ -1,0 +1,91 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <style>
+        
+    .sub{
+        display:none;
+        position:absolute;
+        background-color: black;
+        top:-5px;
+        left:118px;
+        color: white;
+        
+    }
+    ul{
+        padding:0px;
+        margin: 0px;
+        list-style-type: none;
+    }
+    .sub>li{
+        padding: 3px;
+        width: 120px;
+margin: 0px;
+    }
+    .main>li{
+        position:relative;
+        width:120px;
+        padding:3px;
+        margin: 0px;
+        background-color: black;
+        color: white;
+        box-sizing:border-box;
+        border: 5px solid black;
+        font-style: italic;
+        margin:auto;
+        text-align: center;
+    }
+    .main>li:hover{
+        border-right: 5px solid yellow;
+    }
+    .main>li:hover>.sub{
+        display:block;
+
+    }
+    </style>
+</head>
+<body>
+    <ul class="main">
+        <li>
+            Lorem.
+            <ul class="sub">
+                <li>Lorem.</li>
+                <li>Excepturi.</li>
+                <li>Facere!</li>
+            </ul>
+        </li>
+        <li>
+            Recusandae?
+            <ul class="sub">
+                <li>Lorem.</li>
+                <li>Deleniti.</li>
+                <li>Sed.</li>
+            </ul>
+        </li>
+        <li>
+            Suscipit.
+            <ul class="sub">
+                <li>Lorem.</li>
+                <li>Modi.</li>
+                <li>Veniam.</li>
+            </ul>
+        </li>
+        <li>
+            Unde!
+            <ul class="sub">
+                <li>Lorem.</li>
+                <li>Soluta.</li>
+                <li>Autem.</li>
+            </ul>
+        </li>
+        <li>
+            Praesentium?
+            <ul class="sub">
+                <li>Lorem.</li>
+                <li>Neque!</li>
+                <li>Nesciunt.</li>
+            </ul>
+        </li>
+    </ul>
+</body>
+</html>
