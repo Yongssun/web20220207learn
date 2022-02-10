@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <style>
+        .ex{
+            display: inline-block;
+            border:1px solid black;
+        }
+        .ex:first-of-type{
+            width:100px;
+            height: 100px;
+            margin: 20px;
+            padding: 10px;
+        }
+        .ex:nth-of-type(2){
+            width:50px;
+            height:70px;
+            margin: 15px;
+            padding: 7px;
+        }
+    </style>
+</head>
+<body>
+    <p>inline-block:배치는 inline처럼, 크기는(width,height,margin,padding)처럼 사용 가능</p>
+    <div class="ex">Lorem, ipsum dolor.</div>
+    <div class="ex">Voluptatum, nemo itaque!</div>
+    <div class="ex">Error, deleniti quidem?</div>
+    <div class="ex">Facilis, neque odio!</div>
+    <div class="ex">Tenetur, ab doloribus!</div>
+</body>
+</html>
