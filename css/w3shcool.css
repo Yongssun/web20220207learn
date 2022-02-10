@@ -28,6 +28,7 @@
     height: 40px;
     font-size: 1em;
     font-weight: bold;
+    
 }
 #icon:hover{
     background-color: greenyellow;
@@ -44,6 +45,10 @@
 
 .small-but{
     display: flex;
+}
+#small-but{
+    width:11;
+    height:15;
 }
 
 
