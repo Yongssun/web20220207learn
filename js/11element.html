@@ -10,13 +10,39 @@
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/bootstrap/5.1.3/css/bootstrap.min.css"
         integrity="sha512-GQGU0fMMi238uA+a/bdWJfpUGKUkBdgfFdgBm72SUQ6BeyWjoY/ton0tEjH+OSH9iP4Dfh+7HM0I9f5eR0L/4w=="
         crossorigin="anonymous" referrerpolicy="no-referrer" />
-        <link rel="stylesheet" href="../css/복습용.css">
     <style>
     </style>
 </head>
 
 <body>
-    <h1 id="title">SPIDER MAN</h1>
+    <h1 id="head1">
+        Lorem, ipsum dolor.
+    </h1>
+    <h1 id="head2">
+        Quas, aliquam numquam?
+    </h1>
+    <h1 id="head3">
+        Recusandae, iste architecto!
+    </h1>
+
+
+    <div id="div1">
+        <h1>
+            Lorem.
+        </h1>
+        <p>
+            Lorem, ipsum.
+        </p>
+    </div>
+
+    <script>
+       document.querySelector("#head1").innerHTML="오늘의 점심은";
+       document.querySelector("#head2").innerHTML="뭐 먹지?";
+       document.querySelector("#head3").innerHTML="그래 정했어 라멘이다";
+
+       document.querySelector("#div1>h1").innerHTML="잘 먹고 왔습니다";
+       document.querySelector("#div1>p").innerHTML="맛있었음";
+    </script>
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.bundle.min.js"
         integrity="sha384-ka7Sk0Gln4gmtz2MlQnikT1wXgYsOg+OMhuP+IlRH9sENBO0LRn5q+8nbTov4+1p"
         crossorigin="anonymous"></script>

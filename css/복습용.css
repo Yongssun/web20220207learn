@@ -1,0 +1,9 @@
+#title{
+    text-shadow: 1px 1px 2px rgb(49, 88, 194), 0 0 25px blue,0 0 5px darkblue;
+    color: rgb(219, 57, 57);
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    font-size: 400px;
+    margin-top: 0px;
+    padding-top: 0px;
+    background-image: -webkit-image-set();
+}
