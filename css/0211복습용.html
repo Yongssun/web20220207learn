@@ -10,16 +10,49 @@
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/bootstrap/5.1.3/css/bootstrap.min.css"
         integrity="sha512-GQGU0fMMi238uA+a/bdWJfpUGKUkBdgfFdgBm72SUQ6BeyWjoY/ton0tEjH+OSH9iP4Dfh+7HM0I9f5eR0L/4w=="
         crossorigin="anonymous" referrerpolicy="no-referrer" />
-        <link rel="stylesheet" href="../css/복습용.css">
+    <link rel="stylesheet" href="../css/복습용.css">
     <style>
     </style>
 </head>
 
 <body>
-    <h1 id="title">SPIDER MAN</h1>
-    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.bundle.min.js"
-        integrity="sha384-ka7Sk0Gln4gmtz2MlQnikT1wXgYsOg+OMhuP+IlRH9sENBO0LRn5q+8nbTov4+1p"
-        crossorigin="anonymous"></script>
+    <section class="titleWrap">
+        <div class="coverImg"></div>
+        <div class="cover"></div>
+        <h1>SPIDERMAN</h1>
+
+    </section>
+    <section class="" textWrap>
+        <div class="innerWrap">
+
+            <h2>ABOUT SPIDY</h2>
+        </div>
+    </section>
 </body>
+
+
+
+
+
+
+<script>
+    let coverImg, cover;
+    let scollTop = 0;
+    let h1;
+    window.onload = () => {
+        coverImg = document.getElementsByClassName("coverImg")[0];
+        h1 = document.getElementsByTagName("h1")[0];
+        cover = document.getElementsByClassName("cover")[0];
+        cover.style.opacity = .3;
+    }
+    window.addEventListener("scoll", (e) => {
+        scrollTop = document.documentElement.scrollTop;
+        h1.style.transform = " translate(0," + -scrollTop / 10 + "px)";
+        coverImg.style.transform = "scale(" + (1 + scrollTop / 1000) + ")";
+        cover.style.opacity = .3 + scrollTop / 1000;
+    });
+
+
+</script>
 
 </html>
