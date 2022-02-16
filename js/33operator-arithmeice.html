@@ -58,6 +58,7 @@ document.getElementById("button5").onclick=function(){
 let num1=document.getElementById("input1").value;
 let num2=document.getElementById("input2").value;
 let num3=Number(num1)/Number(num2);
+num3=Math.floor(num3);
 
 document.getElementById("result").innerHTML=num3;
 num3=Number(num1)%Number(num2);
