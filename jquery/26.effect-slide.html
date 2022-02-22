@@ -1,0 +1,104 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css" integrity="sha512-9usAa10IRO0HhonpyAIVpjrylPvoDwiPUiKdWk5t3PyolY1cOd4DSE0Ga+ri4AuTroPR5aQvXU9xC6qOPnzFeg==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/bootstrap/5.1.3/css/bootstrap.min.css" integrity="sha512-GQGU0fMMi238uA+a/bdWJfpUGKUkBdgfFdgBm72SUQ6BeyWjoY/ton0tEjH+OSH9iP4Dfh+7HM0I9f5eR0L/4w==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.6.0/jquery.min.js" integrity="sha512-894YE6QWD5I59HgZOGReFYm4dnWc1Qt5NtvYSaNcOP+u1T9qYdvdihz0PPSiiqn/+/3e7Jo4EaG7TubfWGUrMQ==" crossorigin="anonymous" referrerpolicy="no-referrer"></script>
+    <style>
+        #para1,#para2,#para3{
+            display: none;
+        }
+    </style>
+    <script>
+        $(function(){
+            $("#button1").click(function(){
+                $("#para1").slideDown();
+            });
+           
+            $("#button2").click(function(){
+                $("#para2").slideDown(3000);
+            });
+            $("#button3").click(function(){
+                $("#para3").slideDown("fast");
+            });
+            $("#button4").click(function(){
+                $("#para4").slideUp();
+            });
+            $("#button5").click(function(){
+                $("#para5").slideUp(3000);
+            });
+            $("#button6").click(function(){
+                $("#para6").slideUp("fast");
+            });
+            $("#button7").click(function(){
+                $("#para7").slideToggle();
+            });
+            $("#button8").click(function(){
+                $("#para8").slideToggle(3000);
+            });
+            $("#button9").click(function(){
+                $("#para9").slideToggle("fast");
+            });
+            $("#button10").click(function(){
+                $("#para10").slideToggle("slow");
+            });
+        });
+
+    </script>
+</head>
+<body>
+    <button id="button1">slidedown</button>
+    <p id="para1">
+        Lorem ipsum dolor sit amet consectetur, adipisicing elit. Repudiandae exercitationem quia quidem corrupti magnam ducimus architecto alias cumque similique illum voluptatem veniam, at excepturi accusantium voluptates, aspernatur labore unde deserunt.
+    </p>
+    <br>
+    <button id="button2">slidedown 3sec</button>
+    <p id="para2">
+        Itaque, ab blanditiis exercitationem, doloremque quibusdam illum nulla iusto amet labore distinctio quos atque perspiciatis ad suscipit porro velit dolorem quaerat fugiat ipsam ipsa iure architecto. Veritatis voluptas recusandae qui.
+    </p>
+    <br>
+    <button id="button3">slidedown fast</button>
+    <p id="para3">
+        Quis excepturi rem, rerum quo nostrum nesciunt error incidunt nam explicabo doloremque voluptas fugiat id. Suscipit ducimus harum animi iure, doloribus repellendus quos enim ea architecto nisi nulla excepturi minus!
+    </p>
+    <br>
+    <button id="button4">slideup </button>
+    <p id="para4">
+        Tenetur eos asperiores quam iusto quod ullam ab corrupti odit, enim eaque consequuntur inventore perspiciatis reprehenderit corporis! Aspernatur labore, sapiente praesentium, dolor nisi tempora illum quam consequuntur quidem, unde eum.
+    </p>
+    <br>
+    <button id="button5">slideup 3sec</button>
+    <p id="para5">
+        Libero amet aspernatur enim, illum exercitationem asperiores ad ipsam sequi odio ab aperiam impedit ipsum vero minus sunt. Distinctio magnam provident similique commodi natus architecto quasi possimus in minima autem.
+    </p>
+    <br>
+    <button id="button6">slideup fast</button>
+    <p id="para6">
+        Modi sit delectus doloremque fugit omnis hic, minima quas blanditiis optio provident voluptatem, autem dicta facilis cumque ipsum? Nesciunt laudantium nemo explicabo eius rem earum inventore, quasi doloremque aperiam debitis?
+    </p>
+    <br>
+    <button id="button7">slidetoggle</button>
+    <p id="para7">
+        A in sapiente nihil suscipit corporis alias quam vitae ipsa, debitis consequuntur esse amet modi iure necessitatibus dolorum porro ab. Ab recusandae, perspiciatis dignissimos corporis ullam quas aliquam animi vitae.
+    </p>
+    <br>
+    <button id="button8">slidetoggle 3sec</button>
+    <p id="para8">
+        Numquam laboriosam blanditiis cum ea veniam est, iure, recusandae perferendis doloremque nihil pariatur tenetur. Inventore alias, laudantium debitis odit modi suscipit similique explicabo ullam quis dolorum, eveniet culpa quo facilis.
+    </p>
+    <br>
+    <button id="button9">slidetoggle fast</button>
+    <p id="para9">
+        Reiciendis magni dicta iusto error architecto quod maxime nisi inventore impedit dolorem adipisci aliquid nam voluptatum nulla maiores ipsa suscipit totam iste sequi quaerat praesentium vel voluptatem, dignissimos cupiditate. Iure.
+    </p>
+    <br>
+    <button id="button10">slidetoggle slow</button>
+    <p id="para10">
+        Natus sit molestiae recusandae dolore atque harum voluptatum magni, sed totam quas dolor odio nobis adipisci asperiores beatae voluptate doloribus eum, in minima labore aliquam qui ipsa deserunt! Quo, reprehenderit?
+    </p>
+    <br>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-ka7Sk0Gln4gmtz2MlQnikT1wXgYsOg+OMhuP+IlRH9sENBO0LRn5q+8nbTov4+1p" crossorigin="anonymous"></script>
+</body>
+</html>
